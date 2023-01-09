@@ -10,7 +10,7 @@ public class Children {
     private final int age;
     private final String city;
     private final int niceScore;
-    private final ArrayList<String> giftsPreferences;
+    private ArrayList<String> giftsPreferences;
 
     public Children(final int id, final String lastName,
                     final String firstName, final int age,

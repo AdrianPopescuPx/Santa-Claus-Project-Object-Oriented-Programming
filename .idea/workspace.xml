@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SantaDatabase/Children.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SantaDatabase/ChildrenUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SantaDatabase/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SantaDatabase/InputLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SantaDatabase/SantaGiftsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/OptionGifts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Children.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/ChildrenUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/ChildrenUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/InputLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/InputLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/Checker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/adria/Desktop/Movie-Database-Object-Oriented-Programming",
+    "last_opened_file_path": "D:/Santa-Claus-Project-Object-Oriented-Programming",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -86,5 +87,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SantaDatabase/InputLoader.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

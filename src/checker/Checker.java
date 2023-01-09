@@ -15,6 +15,15 @@ public final class Checker {
     /**
      * This method is used to calculate total score of the implementation and checkstyle
      */
+    public static void deleteFiles(final File[] directory) {
+        if (directory != null) {
+            for (File file : directory) {
+                if (!file.delete()) {
+                    System.out.println("nu s-a sters");
+                }
+            }
+        }
+    }
     public static void calculateScore() {
 
         System.out.println("TOTAL : "
