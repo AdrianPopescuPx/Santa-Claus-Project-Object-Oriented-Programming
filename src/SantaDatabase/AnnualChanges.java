@@ -8,15 +8,31 @@ public final class AnnualChanges {
     private final Double newSantaBudget;
     private List<SantaGiftsList> newGifts;
     private List<Children> newChildren;
-    private ArrayList<String> newPreferences;
+    private List<ChildrenUpdate> childrenUpdates;
 
 
     public AnnualChanges(Double newSantaBudget, List<SantaGiftsList> newGifts,
                          List<Children> newChildren,
-                         ArrayList<String> newPreferences) {
+                         List<ChildrenUpdate> childrenUpdates) {
         this.newSantaBudget = newSantaBudget;
         this.newGifts = newGifts;
         this.newChildren = newChildren;
-        this.newPreferences = newPreferences;
+        this.childrenUpdates = childrenUpdates;
+    }
+
+    public Double getNewSantaBudget() {
+        return newSantaBudget;
+    }
+
+    public List<SantaGiftsList> getNewGifts() {
+        return newGifts;
+    }
+
+    public List<Children> getNewChildren() {
+        return newChildren;
+    }
+
+    public List<ChildrenUpdate> getChildrenUpdates() {
+        return childrenUpdates;
     }
 }

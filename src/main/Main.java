@@ -12,6 +12,7 @@ import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
@@ -53,7 +54,10 @@ public final class Main {
                               final String filePath2) throws IOException {
         InputLoader inputLoader = new InputLoader(filePath1);
         Input input = inputLoader.readData();
-
+        for (int i = 0; i < input.getAnnualChanges().size(); ++i) {
+            System.out.println(input.getAnnualChanges().get(i).getNewSantaBudget());
+        }
+        System.out.println(input.getNumberOfYears() + " " + filePath1);
 //        Writer fileWriter = new Writer(filePath2);
 //        JSONArray arrayResult = new JSONArray();
 //        fileWriter.closeJSON(arrayResult);

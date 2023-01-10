@@ -9,6 +9,13 @@ public final class Constants {
     public static final String ANNUAL_CHANGES = "annualChanges";
     public static final String INITIAL_DATA = "initialData";
     public static final String ID = "id";
+    public static final String PRODUCT_NAME = "productName";
+    public static final String PRICE = "price";
+    public static final String CATEGORY_GIFT = "category";
+    public static final String NEW_BUDGET = "newSantaBudget";
+    public static final String NEW_GIFTS = "newGifts";
+    public static final String NEW_CHILDREN = "newChildren";
+    public static final String CHILDREN_UPDATES = "childrenUpdates";
     public static final String LAST_NAME = "lastName";
     public static final String FIRST_NAME = "firstName";
     public static final String AGE = "age";

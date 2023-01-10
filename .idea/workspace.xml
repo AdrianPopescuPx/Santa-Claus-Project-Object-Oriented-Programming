@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Utils/OptionGifts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/AnnualChanges.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/AnnualChanges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/ChildrenUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/ChildrenUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/InputLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/InputLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Children.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/ChildrenUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/ChildrenUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/InputLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/InputLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checker/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/Checker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
@@ -38,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Santa-Claus-Project-Object-Oriented-Programming",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Santa-Claus-Project-Object-Oriented-Programming&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
@@ -92,11 +92,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SantaDatabase/InputLoader.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="SantaDatabase.Input" memberName="giftsData" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="input.annualChanges.get(0)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
