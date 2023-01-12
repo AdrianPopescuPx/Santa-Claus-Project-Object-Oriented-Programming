@@ -9,12 +9,12 @@ public class Children {
     private final String firstName;
     private final int age;
     private final String city;
-    private final int niceScore;
+    private final Double niceScore;
     private ArrayList<String> giftsPreferences;
 
     public Children(final int id, final String lastName,
                     final String firstName, final int age,
-                    final String city, final int niceScore,
+                    final String city, final Double niceScore,
                     final ArrayList<String> giftsPreferences) {
         this.id = id;
         this.lastName = lastName;
@@ -45,7 +45,7 @@ public class Children {
         return city;
     }
 
-    public int getNiceScore() {
+    public Double getNiceScore() {
         return niceScore;
     }
 

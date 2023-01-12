@@ -4,20 +4,20 @@ import java.util.ArrayList;
 
 public class ChildrenUpdate {
     private int id;
-    private Integer niceScore;
+    private Double niceScore;
     private ArrayList<String> newPreferences;
 
-    public ChildrenUpdate(int id, Integer niceScore, ArrayList<String> newPreferences){
+    public ChildrenUpdate(int id, Double niceScore, ArrayList<String> newPreferences){
         this.id = id;
         this.niceScore = niceScore;
         this.newPreferences = newPreferences;
     }
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public int getNiceScore() {
+    public Double getNiceScore() {
         return niceScore;
     }
 

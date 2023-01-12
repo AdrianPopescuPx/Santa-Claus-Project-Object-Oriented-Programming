@@ -2,19 +2,20 @@ package main;
 
 import SantaDatabase.Input;
 import SantaDatabase.InputLoader;
+import SantaDatabase.Writer;
 import checker.Checker;
 import common.Constants;
 import org.json.simple.JSONArray;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+
 
 /**
  * Class used to run the code
@@ -36,7 +37,6 @@ public final class Main {
         if (!Files.exists(path)) {
             Files.createDirectories(path);
         }
-
         File outputDirectory = new File(Constants.RESULT_PATH);
         Checker.deleteFiles(outputDirectory.listFiles());
         for (File file : Objects.requireNonNull(directory.listFiles())) {
@@ -48,18 +48,15 @@ public final class Main {
                 action(file.getAbsolutePath(), filepath);
             }
         }
+        Checker.calculateScore();
     }
 
     public static void action(final String filePath1,
                               final String filePath2) throws IOException {
         InputLoader inputLoader = new InputLoader(filePath1);
         Input input = inputLoader.readData();
-        for (int i = 0; i < input.getAnnualChanges().size(); ++i) {
-            System.out.println(input.getAnnualChanges().get(i).getNewSantaBudget());
-        }
-        System.out.println(input.getNumberOfYears() + " " + filePath1);
-//        Writer fileWriter = new Writer(filePath2);
-//        JSONArray arrayResult = new JSONArray();
-//        fileWriter.closeJSON(arrayResult);
+        Writer fileWriter = new Writer(filePath2);
+        JSONArray arrayResult = new JSONArray();
+        fileWriter.closeJSON(arrayResult);
     }
 }

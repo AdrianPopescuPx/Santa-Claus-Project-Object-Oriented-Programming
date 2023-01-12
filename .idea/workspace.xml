@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SantaDatabase/Writer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/AnnualChanges.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/AnnualChanges.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/ChildrenUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/ChildrenUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/InputLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/InputLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/common/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Children.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/ChildrenUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/ChildrenUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/InputLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/InputLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/SantaGiftsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/SantaGiftsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,15 +88,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="SantaDatabase.Input" memberName="giftsData" />

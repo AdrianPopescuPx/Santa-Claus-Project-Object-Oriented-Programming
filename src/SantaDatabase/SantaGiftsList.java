@@ -3,10 +3,10 @@ package SantaDatabase;
 public class SantaGiftsList {
 
     private final String productName;
-    private final int price;
+    private final Double price;
     private final String category;
 
-    public SantaGiftsList(final String productName, final int price,
+    public SantaGiftsList(final String productName, final Double price,
                           final String category) {
         this.productName = productName;
         this.price = price;
@@ -17,7 +17,7 @@ public class SantaGiftsList {
         return productName;
     }
 
-    public int getPrice() {
+    public Double getPrice() {
         return price;
     }
 

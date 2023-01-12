@@ -61,7 +61,7 @@ public final class InputLoader {
                             (String) ((JSONObject) jsonChild).get(Constants.FIRST_NAME),
                             Integer.parseInt(((JSONObject) jsonChild).get(Constants.AGE).toString()),
                             (String) ((JSONObject) jsonChild).get(Constants.CITY),
-                            Integer.parseInt(((JSONObject) jsonChild).get(Constants.NICE_SCORE).toString()),
+                            Double.parseDouble(((JSONObject) jsonChild).get(Constants.NICE_SCORE).toString()),
                             Utils.convertJSONArray((JSONArray) ((JSONObject) jsonChild).get(Constants.GIFT_PREF))));
                 }
             }   else {
@@ -71,7 +71,7 @@ public final class InputLoader {
             if (jsonGiftList != null) {
                 for (Object jsonGift : jsonGiftList) {
                     gifts.add(new SantaGiftsList((String) ((JSONObject) jsonGift).get(Constants.PRODUCT_NAME),
-                            Integer.parseInt(((JSONObject) jsonGift).get(Constants.PRICE).toString()),
+                            Double.parseDouble(((JSONObject) jsonGift).get(Constants.PRICE).toString()),
                             (String) ((JSONObject) jsonGift).get(Constants.CATEGORY_GIFT)));
                 }
             }   else {
@@ -86,12 +86,9 @@ public final class InputLoader {
 
     public List<AnnualChanges> readChanges(JSONObject jsonObject) {
         List<AnnualChanges> changesResult = new ArrayList<>();
-        //JSONObject jsonAnnualChanges = (JSONObject) jsonObject
-                //.get(Constants.ANNUAL_CHANGES);
         JSONArray jsonAnnualChanges = (JSONArray) jsonObject.get(Constants.ANNUAL_CHANGES);
         if (jsonAnnualChanges != null) {
             for (Object jsonIterator : jsonAnnualChanges) {
-                // jsonChangesData = (JSONArray) jsonAnnualChanges.get(Constants.CHILDREN);
                 List<SantaGiftsList> newGifts = new ArrayList<>();
                 Double newSantaBudget = Double.parseDouble(((JSONObject) jsonIterator).get(Constants.NEW_BUDGET)
                         .toString());
@@ -99,7 +96,7 @@ public final class InputLoader {
                 if (jsonNewGifts != null) {
                     for (Object jsonGifts : jsonNewGifts) {
                         newGifts.add(new SantaGiftsList((String) ((JSONObject) jsonGifts).get(Constants.PRODUCT_NAME),
-                                Integer.parseInt(((JSONObject) jsonGifts).get(Constants.PRICE).toString()),
+                                Double.parseDouble(((JSONObject) jsonGifts).get(Constants.PRICE).toString()),
                                 (String) ((JSONObject) jsonGifts).get(Constants.CATEGORY_GIFT)));
                     }
                 }   else {
@@ -115,7 +112,7 @@ public final class InputLoader {
                                 (String) ((JSONObject) jsonChild).get(Constants.FIRST_NAME),
                                 Integer.parseInt(((JSONObject) jsonChild).get(Constants.AGE).toString()),
                                 (String) ((JSONObject) jsonChild).get(Constants.CITY),
-                                Integer.parseInt(((JSONObject) jsonChild).get(Constants.NICE_SCORE).toString()),
+                                Double.parseDouble(((JSONObject) jsonChild).get(Constants.NICE_SCORE).toString()),
                                 Utils.convertJSONArray((JSONArray) ((JSONObject) jsonChild).get(Constants.GIFT_PREF))));
                     }
                 }   else {
@@ -128,7 +125,7 @@ public final class InputLoader {
                         if (((JSONObject) jsonChild).get(Constants.NICE_SCORE) != null) {
                             childrenUpdates.add(new ChildrenUpdate(Integer.parseInt(((JSONObject) jsonChild)
                                     .get(Constants.ID).toString()),
-                                    Integer.parseInt(((JSONObject) jsonChild).get(Constants.NICE_SCORE).toString()),
+                                    Double.parseDouble(((JSONObject) jsonChild).get(Constants.NICE_SCORE).toString()),
                                     Utils.convertJSONArray((JSONArray) ((JSONObject) jsonChild).get(Constants.GIFT_PREF))));
                         }   else {
                             childrenUpdates.add(new ChildrenUpdate(Integer.parseInt(((JSONObject) jsonChild)
