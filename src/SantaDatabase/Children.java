@@ -10,7 +10,9 @@ public class Children {
     private final int age;
     private final String city;
     private final Double niceScore;
+    private Double averageScore;
     private ArrayList<String> giftsPreferences;
+    private ArrayList<Double> niceScoreList = new ArrayList<>();
 
     public Children(final int id, final String lastName,
                     final String firstName, final int age,
@@ -23,6 +25,19 @@ public class Children {
         this.city = city;
         this.niceScore = niceScore;
         this.giftsPreferences = giftsPreferences;
+    }
+
+    public void addScoreToList(Double number) {
+        niceScoreList.add(number);
+    }
+    public ArrayList<Double> getNiceScoreList() {
+        return niceScoreList;
+    }
+    public void setAverageScore(Double number) {
+        averageScore = number;
+    }
+    public Double getAverageScore() {
+        return averageScore;
     }
 
     public int getId() {

@@ -1,9 +1,12 @@
 package main;
 
+import MyDatabase.MyDatabase;
+import MyDatabase.Operations;
 import SantaDatabase.Input;
 import SantaDatabase.InputLoader;
 import SantaDatabase.Writer;
 import checker.Checker;
+import childrenCategory.*;
 import common.Constants;
 import org.json.simple.JSONArray;
 
@@ -57,6 +60,10 @@ public final class Main {
         Input input = inputLoader.readData();
         Writer fileWriter = new Writer(filePath2);
         JSONArray arrayResult = new JSONArray();
+        MyDatabase database = MyDatabase.getInstance(input);
+        Operations operations = new Operations(database.getChildrenData());
+        operations.doAverageOperation();
+        database.removeDatabase();
         fileWriter.closeJSON(arrayResult);
     }
 }

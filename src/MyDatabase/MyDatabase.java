@@ -48,4 +48,7 @@ public class MyDatabase {
     public List<AnnualChanges> getAnnualChanges() {
         return annualChanges;
     }
+    public void removeDatabase() {
+        instance = null;
+    }
 }
