@@ -1,9 +1,12 @@
 package MyDatabase;
-
+import com.google.gson.Gson;
 import SantaDatabase.AnnualChanges;
 import SantaDatabase.Children;
 import SantaDatabase.Input;
 import SantaDatabase.SantaGiftsList;
+import com.google.gson.GsonBuilder;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 
 import java.util.List;
 
@@ -15,7 +18,8 @@ public class MyDatabase {
     private List<Children> childrenData;
     private List<SantaGiftsList> giftsData;
     private List<AnnualChanges> annualChanges;
-    private MyDatabase(Input input) {
+    private MyDatabase(){}
+    public void setInput(Input input) {
         this.numberOfYears = input.getNumberOfYears();
         this.santaBudget = input.getSantaBudget();
         this.childrenData = input.getChildrenData();
@@ -23,9 +27,9 @@ public class MyDatabase {
         this.annualChanges = input.getAnnualChanges();
     }
 
-    public static MyDatabase getInstance(Input input) {
+    public static synchronized MyDatabase getInstance() {
         if (instance == null) {
-            instance = new MyDatabase(input);
+            instance = new MyDatabase();
         }
         return instance;
     }
@@ -48,7 +52,39 @@ public class MyDatabase {
     public List<AnnualChanges> getAnnualChanges() {
         return annualChanges;
     }
-    public void removeDatabase() {
-        instance = null;
+    public void roundZero(JSONArray arrayResult) {
+        Double allAverageSum = 0.0;
+        for (Children currentChild : getChildrenData()) {
+            allAverageSum += currentChild.getAverageScore();
+        }
+        Double budgetUnit = getSantaBudget() / allAverageSum;
+        for (Children currentChild : getChildrenData()) {
+            currentChild.setAssignedBudget(currentChild.getAverageScore() * budgetUnit);
+        }
+
+        for (Children currentChild : getChildrenData()) {
+            for (String preference : currentChild.getGiftsPreferences()) {
+                SantaGiftsList finalGift = null;
+                for (SantaGiftsList currentGift : giftsData) {
+                    if (currentGift.getCategory().equals(preference) && finalGift == null) {
+                        finalGift = currentGift;
+                    }   else if (currentGift.getCategory().equals(preference)) {
+                            if (currentGift.getPrice() < finalGift.getPrice()) {
+                                finalGift = currentGift;
+                            }
+                    }
+                }
+                if (finalGift != null) {
+                    if (santaBudget - finalGift.getPrice() > 0 && finalGift != null) {
+                        currentChild.addGifts(finalGift);
+                        santaBudget -= finalGift.getPrice();
+                    }
+                }
+            }
+        }
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("id", 1);
+        jsonObject.put("message", "sar result: " + 21);
+        arrayResult.add(jsonObject);
     }
 }

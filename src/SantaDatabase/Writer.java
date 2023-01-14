@@ -23,9 +23,9 @@ public class Writer {
         return object;
     }
 
-    public void closeJSON(final JSONArray array) {
+    public void closeJSON(String string) {
         try {
-            file.write(array.toJSONString());
+            file.write(string);
             file.flush();
             file.close();
         } catch (IOException e) {

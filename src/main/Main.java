@@ -2,13 +2,19 @@ package main;
 
 import MyDatabase.MyDatabase;
 import MyDatabase.Operations;
+import SantaDatabase.Children;
 import SantaDatabase.Input;
 import SantaDatabase.InputLoader;
 import SantaDatabase.Writer;
 import checker.Checker;
 import childrenCategory.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import common.Constants;
 import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 
 import java.io.File;
 import java.io.IOException;
@@ -60,10 +66,19 @@ public final class Main {
         Input input = inputLoader.readData();
         Writer fileWriter = new Writer(filePath2);
         JSONArray arrayResult = new JSONArray();
-        MyDatabase database = MyDatabase.getInstance(input);
+        MyDatabase database = MyDatabase.getInstance();
+        database.setInput(input);
+
         Operations operations = new Operations(database.getChildrenData());
         operations.doAverageOperation();
-        database.removeDatabase();
-        fileWriter.closeJSON(arrayResult);
+
+        database.roundZero(arrayResult);
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("id", 12);
+        jsonObject.put("message", "sar result: " + 212);
+        arrayResult.add(jsonObject);
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String json = gson.toJson(arrayResult);
+        fileWriter.closeJSON(json);
     }
 }

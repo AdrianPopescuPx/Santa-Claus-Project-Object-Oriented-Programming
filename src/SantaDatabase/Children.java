@@ -11,8 +11,13 @@ public class Children {
     private final String city;
     private final Double niceScore;
     private Double averageScore;
+    private Double assignedBudget;
     private ArrayList<String> giftsPreferences;
     private ArrayList<Double> niceScoreList = new ArrayList<>();
+
+    private ArrayList<Double> averageScoreHistory = new ArrayList<>();
+    private ArrayList<SantaGiftsList> recievedGifts = new ArrayList<>();
+
 
     public Children(final int id, final String lastName,
                     final String firstName, final int age,
@@ -33,8 +38,17 @@ public class Children {
     public ArrayList<Double> getNiceScoreList() {
         return niceScoreList;
     }
+    public void addGifts(SantaGiftsList gift) {
+        recievedGifts.add(gift);
+    }
+    public ArrayList<SantaGiftsList> getRecievedGifts() {
+        return recievedGifts;
+    }
     public void setAverageScore(Double number) {
         averageScore = number;
+    }
+    public void addAverageHistory(Double number) {
+        averageScoreHistory.add(number);
     }
     public Double getAverageScore() {
         return averageScore;
@@ -62,6 +76,14 @@ public class Children {
 
     public Double getNiceScore() {
         return niceScore;
+    }
+
+    public Double getAssignedBudget() {
+        return assignedBudget;
+    }
+
+    public void setAssignedBudget(Double assignedBudget) {
+        this.assignedBudget = assignedBudget;
     }
 
     public ArrayList<String> getGiftsPreferences() {
