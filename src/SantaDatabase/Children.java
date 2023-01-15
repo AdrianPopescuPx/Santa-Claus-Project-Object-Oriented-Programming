@@ -7,17 +7,14 @@ public class Children {
     private final int id;
     private final String lastName;
     private final String firstName;
-    private final int age;
     private final String city;
-    private final Double niceScore;
+    private final int age;
+    private final ArrayList<String> giftsPreferences;
     private Double averageScore;
+    private final ArrayList<Double> niceScoreHistory = new ArrayList<>();
     private Double assignedBudget;
-    private ArrayList<String> giftsPreferences;
-    private ArrayList<Double> niceScoreList = new ArrayList<>();
-
-    private ArrayList<Double> averageScoreHistory = new ArrayList<>();
-    private ArrayList<SantaGiftsList> recievedGifts = new ArrayList<>();
-
+    private final ArrayList<SantaGiftsList> receivedGifts = new ArrayList<>();
+    private final ArrayList<Double> averageScoreHistory = new ArrayList<>();
 
     public Children(final int id, final String lastName,
                     final String firstName, final int age,
@@ -28,21 +25,21 @@ public class Children {
         this.firstName = firstName;
         this.age = age;
         this.city = city;
-        this.niceScore = niceScore;
+        this.niceScoreHistory.add(niceScore);
         this.giftsPreferences = giftsPreferences;
     }
 
     public void addScoreToList(Double number) {
-        niceScoreList.add(number);
+        niceScoreHistory.add(number);
     }
-    public ArrayList<Double> getNiceScoreList() {
-        return niceScoreList;
+    public ArrayList<Double> getNiceScoreHistory() {
+        return niceScoreHistory;
     }
     public void addGifts(SantaGiftsList gift) {
-        recievedGifts.add(gift);
+        receivedGifts.add(gift);
     }
-    public ArrayList<SantaGiftsList> getRecievedGifts() {
-        return recievedGifts;
+    public ArrayList<SantaGiftsList> getReceivedGifts() {
+        return receivedGifts;
     }
     public void setAverageScore(Double number) {
         averageScore = number;
@@ -74,9 +71,6 @@ public class Children {
         return city;
     }
 
-    public Double getNiceScore() {
-        return niceScore;
-    }
 
     public Double getAssignedBudget() {
         return assignedBudget;
@@ -98,7 +92,7 @@ public class Children {
                 ", firstName='" + firstName + '\'' +
                 ", age=" + age +
                 ", city='" + city + '\'' +
-                ", niceScore=" + niceScore +
+                ", niceScore=" +
                 ", giftsPreferences=" + giftsPreferences +
                 '}';
     }

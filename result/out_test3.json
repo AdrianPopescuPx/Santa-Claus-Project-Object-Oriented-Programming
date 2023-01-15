@@ -1,10 +1,73 @@
-[
-  {
-    "id": 1,
-    "message": "sar result: 21"
-  },
-  {
-    "id": 12,
-    "message": "sar result: 212"
-  }
-]
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Stoica",
+      "firstName" : "Alexandra",
+      "city" : "Cluj-Napoca",
+      "age" : 12,
+      "giftsPreferences" : [ ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 271.3333333333333,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 2,
+      "lastName" : "Pop",
+      "firstName" : "Miruna",
+      "city" : "Constanta",
+      "age" : 6,
+      "giftsPreferences" : [ "Sweets", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 116.28571428571428,
+      "receivedGifts" : [ {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Popa",
+      "firstName" : "Diana",
+      "city" : "Oradea",
+      "age" : 5,
+      "giftsPreferences" : [ "Books", "Board Games" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 232.57142857142856,
+      "receivedGifts" : [ {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Mihalache",
+      "firstName" : "Radu",
+      "city" : "Iasi",
+      "age" : 14,
+      "giftsPreferences" : [ "Clothes", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 193.8095238095238,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      } ]
+    } ]
+  } ]
+}

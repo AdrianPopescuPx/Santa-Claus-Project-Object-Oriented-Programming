@@ -1,13 +1,12 @@
 package MyDatabase;
+import SantaDatabase.*;
 import com.google.gson.Gson;
-import SantaDatabase.AnnualChanges;
-import SantaDatabase.Children;
-import SantaDatabase.Input;
-import SantaDatabase.SantaGiftsList;
 import com.google.gson.GsonBuilder;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MyDatabase {
@@ -52,7 +51,7 @@ public class MyDatabase {
     public List<AnnualChanges> getAnnualChanges() {
         return annualChanges;
     }
-    public void roundZero(JSONArray arrayResult) {
+    public void roundZero(Writer writer) throws IOException {
         Double allAverageSum = 0.0;
         for (Children currentChild : getChildrenData()) {
             allAverageSum += currentChild.getAverageScore();
@@ -82,9 +81,6 @@ public class MyDatabase {
                 }
             }
         }
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("id", 1);
-        jsonObject.put("message", "sar result: " + 21);
-        arrayResult.add(jsonObject);
+        writer.writeFile(childrenData);
     }
 }

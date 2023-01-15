@@ -1,10 +1,62 @@
-[
-  {
-    "id": 1,
-    "message": "sar result: 21"
-  },
-  {
-    "id": 12,
-    "message": "sar result: 212"
-  }
-]
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Tudor",
+      "city" : "Oradea",
+      "age" : 17,
+      "giftsPreferences" : [ "Books", "Board Games" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 304.2352941176471,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Monopoly",
+        "price" : 30.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Craiova",
+      "age" : 3,
+      "giftsPreferences" : [ "Books", "Clothes" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 760.5882352941177,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Pop",
+      "firstName" : "Matei",
+      "city" : "Craiova",
+      "age" : 10,
+      "giftsPreferences" : [ "Books", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 228.1764705882353,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Monopoly",
+        "price" : 30.0,
+        "category" : "Board Games"
+      } ]
+    } ]
+  } ]
+}

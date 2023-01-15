@@ -5,9 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Children.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Children.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Writer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Kid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Kid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Teen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Teen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proiect1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proiect1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test1.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test10.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test10.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test11.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test11.json" afterDir="false" />
@@ -26,9 +29,19 @@
       <change beforePath="$PROJECT_DIR$/result/out_test23.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test23.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test24.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test24.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test25.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test3.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test4.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test5.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test9.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyDatabase/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDatabase/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Children.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrenCategory/Kid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrenCategory/Teen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +68,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/gson-2.10.1.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/gson-2.10.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
@@ -112,9 +125,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MyDatabase/MyDatabase.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -122,6 +135,7 @@
       <pinned-members>
         <PinnedItemInfo parentTag="MyDatabase.MyDatabase" memberName="numberOfYears" />
         <PinnedItemInfo parentTag="SantaDatabase.Children" memberName="niceScoreList" />
+        <PinnedItemInfo parentTag="SantaDatabase.Writer" memberName="jsonArray" />
         <PinnedItemInfo parentTag="SantaDatabase.Children" memberName="averageScoreHistory" />
         <PinnedItemInfo parentTag="SantaDatabase.Input" memberName="giftsData" />
         <PinnedItemInfo parentTag="MyDatabase.MyDatabase" memberName="santaBudget" />

@@ -1,10 +1,50 @@
-[
-  {
-    "id": 1,
-    "message": "sar result: 21"
-  },
-  {
-    "id": 12,
-    "message": "sar result: 212"
-  }
-]
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Stoica",
+      "firstName" : "Alexandra",
+      "city" : "Timisoara",
+      "age" : 3,
+      "giftsPreferences" : [ "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 57.5,
+      "receivedGifts" : [ {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Alexandra",
+      "city" : "Iasi",
+      "age" : 17,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 57.5,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Popescu",
+      "firstName" : "Diana",
+      "city" : "Braila",
+      "age" : 16,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 8.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 46.0,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  } ]
+}

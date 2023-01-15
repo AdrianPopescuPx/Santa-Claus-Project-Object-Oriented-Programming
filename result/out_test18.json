@@ -1,10 +1,47 @@
-[
-  {
-    "id": 1,
-    "message": "sar result: 21"
-  },
-  {
-    "id": 12,
-    "message": "sar result: 212"
-  }
-]
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Miruna",
+      "city" : "Cluj-Napoca",
+      "age" : 5,
+      "giftsPreferences" : [ "Toys", "Board Games", "Clothes" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 216.46153846153848,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Handbag",
+        "price" : 200.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Miruna",
+      "city" : "Timisoara",
+      "age" : 18,
+      "giftsPreferences" : [ "Technology", "Toys", "Clothes" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 721.5384615384617,
+      "receivedGifts" : [ {
+        "productName" : "Laptop",
+        "price" : 500.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  } ]
+}

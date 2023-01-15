@@ -1,10 +1,96 @@
-[
-  {
-    "id": 1,
-    "message": "sar result: 21"
-  },
-  {
-    "id": 12,
-    "message": "sar result: 212"
-  }
-]
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Alexandra",
+      "city" : "Bucuresti",
+      "age" : 12,
+      "giftsPreferences" : [ "Books" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 80.47058823529412,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Brasov",
+      "age" : 11,
+      "giftsPreferences" : [ "Board Games", "Clothes" ],
+      "averageScore" : 9.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 120.70588235294117,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Cantemir",
+      "firstName" : "Miruna",
+      "city" : "Timisoara",
+      "age" : 17,
+      "giftsPreferences" : [ "Toys", "Clothes", "Books" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 40.23529411764706,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Popescu",
+      "firstName" : "Radu",
+      "city" : "Oradea",
+      "age" : 16,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 80.47058823529412,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Pop",
+      "firstName" : "Tudor",
+      "city" : "Craiova",
+      "age" : 3,
+      "giftsPreferences" : [ "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 134.11764705882354,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    } ]
+  } ]
+}

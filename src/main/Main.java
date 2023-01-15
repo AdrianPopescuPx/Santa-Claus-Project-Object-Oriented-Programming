@@ -71,14 +71,8 @@ public final class Main {
 
         Operations operations = new Operations(database.getChildrenData());
         operations.doAverageOperation();
-
-        database.roundZero(arrayResult);
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("id", 12);
-        jsonObject.put("message", "sar result: " + 212);
-        arrayResult.add(jsonObject);
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        String json = gson.toJson(arrayResult);
-        fileWriter.closeJSON(json);
+        fileWriter.clear();
+        database.roundZero(fileWriter);
+        fileWriter.closeJSON();
     }
 }
