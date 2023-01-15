@@ -8,7 +8,7 @@ public class Children {
     private final String lastName;
     private final String firstName;
     private final String city;
-    private final int age;
+    private int age;
     private final ArrayList<String> giftsPreferences;
     private Double averageScore;
     private final ArrayList<Double> niceScoreHistory = new ArrayList<>();
@@ -61,6 +61,9 @@ public class Children {
 
     public String getFirstName() {
         return firstName;
+    }
+    public void setAge() {
+        age++;
     }
 
     public int getAge() {

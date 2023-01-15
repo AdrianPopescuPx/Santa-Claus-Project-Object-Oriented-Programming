@@ -3,45 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Children.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Children.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Writer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Kid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Kid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Teen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Teen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test1.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test10.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test11.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test11.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test12.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test13.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test14.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test14.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test15.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test16.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test17.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test17.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test18.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test19.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test19.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test20.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test21.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test22.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test23.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test24.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test25.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test3.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test4.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test5.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test5.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test6.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test7.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test8.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyDatabase/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDatabase/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Children.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/childrenCategory/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrenCategory/Kid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/childrenCategory/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrenCategory/Teen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,15 +111,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="MyDatabase.MyDatabase" memberName="numberOfYears" />

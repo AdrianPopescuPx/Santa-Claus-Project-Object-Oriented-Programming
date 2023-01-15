@@ -2,10 +2,7 @@ package main;
 
 import MyDatabase.MyDatabase;
 import MyDatabase.Operations;
-import SantaDatabase.Children;
-import SantaDatabase.Input;
-import SantaDatabase.InputLoader;
-import SantaDatabase.Writer;
+import SantaDatabase.*;
 import checker.Checker;
 import childrenCategory.*;
 import com.google.gson.Gson;
@@ -21,6 +18,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
@@ -65,14 +63,51 @@ public final class Main {
         InputLoader inputLoader = new InputLoader(filePath1);
         Input input = inputLoader.readData();
         Writer fileWriter = new Writer(filePath2);
-        JSONArray arrayResult = new JSONArray();
         MyDatabase database = MyDatabase.getInstance();
         database.setInput(input);
 
         Operations operations = new Operations(database.getChildrenData());
         operations.doAverageOperation();
-        fileWriter.clear();
         database.roundZero(fileWriter);
+
         fileWriter.closeJSON();
+    }
+
+    public void doAnnualChanges(MyDatabase database, Writer fileWriter) {
+        for (int i = 0; i < database.getNumberOfYears(); ++i) {
+            Operations operations = new Operations(database.getChildrenData());
+            operations.doAnnualChanges();
+            // adding new child if is under 19 years old
+            if (!database.getAnnualChanges().get(i).getNewChildren().isEmpty()) {
+                for (Children newChild : database.getAnnualChanges().get(i)
+                        .getNewChildren()) {
+                    if (newChild.getAge() > 18) {
+                        continue;
+                    }
+                    database.getChildrenData().add(newChild);
+                }
+            }
+            // updating children data
+            if (!database.getAnnualChanges().get(i).getChildrenUpdates().isEmpty()) {
+                for (ChildrenUpdate childUpdate : database.getAnnualChanges().get(i)
+                        .getChildrenUpdates()) {
+                    Children currentChild = database.getChildrenData().get(childUpdate.getId());
+                    if (database.getChildrenData().contains(childUpdate.getId())) {
+                        if (childUpdate.getNiceScore() != null) {
+                            currentChild.addScoreToList(childUpdate.getNiceScore());
+                        }
+                    }
+                    if (!childUpdate.getNewPreferences().isEmpty()) {
+                        ArrayList<String> newElements = childUpdate.getNewPreferences();
+                        for (String element : newElements) {
+                            if (currentChild.getGiftsPreferences().contains(element)) {
+                                currentChild.getGiftsPreferences().remove(element);
+                            }
+                        }
+                        currentChild.getGiftsPreferences().addAll(0, newElements);
+                    }
+                }
+            }
+        }
     }
 }
