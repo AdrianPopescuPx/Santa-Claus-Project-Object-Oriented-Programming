@@ -148,10 +148,6 @@
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 3,
@@ -190,10 +186,6 @@
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 5,
@@ -253,10 +245,6 @@
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 3,
@@ -276,10 +264,6 @@
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 4,
@@ -299,10 +283,6 @@
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 5,
@@ -318,10 +298,6 @@
         "productName" : "Castle",
         "price" : 15.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 6,
@@ -381,10 +357,6 @@
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 4,
@@ -404,10 +376,6 @@
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 6,

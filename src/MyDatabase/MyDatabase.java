@@ -74,7 +74,7 @@ public class MyDatabase {
                     }
                 }
                 if (finalGift != null) {
-                    if (santaBudget - finalGift.getPrice() > 0 && finalGift != null) {
+                    if (santaBudget - finalGift.getPrice() > 0) {
                         currentChild.addGifts(finalGift);
                         santaBudget -= finalGift.getPrice();
                     }

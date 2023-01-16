@@ -748,10 +748,6 @@
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
       } ]
     }, {
       "id" : 9,
@@ -764,17 +760,9 @@
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 28.074074074074073,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       } ]
     } ]
   } ]

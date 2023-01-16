@@ -334,10 +334,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 197.6103896103896,
       "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -523,10 +519,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 18.181818181818183,
       "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -712,10 +704,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 197.6103896103896,
       "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -901,10 +889,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 200.21052631578948,
       "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -1090,10 +1074,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 200.21052631578948,
       "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -1279,10 +1259,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 185.5609756097561,
       "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -1510,10 +1486,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 40.0,
       "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"

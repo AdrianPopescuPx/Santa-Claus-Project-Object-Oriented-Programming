@@ -307,10 +307,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
       } ]
     } ]
   }, {
@@ -366,10 +362,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
       } ]
     }, {
       "id" : 7,
@@ -440,10 +432,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
       } ]
     }, {
       "id" : 9,
@@ -456,10 +444,6 @@
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 56.35000000000001,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Monopoly",
         "price" : 30.0,
         "category" : "Board Games"
@@ -522,10 +506,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
       } ]
     }, {
       "id" : 9,
@@ -538,10 +518,6 @@
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 56.35000000000001,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Monopoly",
         "price" : 30.0,
         "category" : "Board Games"

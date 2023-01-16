@@ -4,12 +4,20 @@
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Children.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/SantaDatabase/Children.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_17.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/out_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
@@ -91,8 +99,24 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="MyDatabase.MyDatabase" memberName="childrenData" />
+        <PinnedItemInfo parentTag="MyDatabase.MyDatabase" memberName="numberOfYears" />
         <PinnedItemInfo parentTag="SantaDatabase.Children" memberName="niceScoreList" />
         <PinnedItemInfo parentTag="SantaDatabase.Writer" memberName="jsonArray" />
         <PinnedItemInfo parentTag="SantaDatabase.Children" memberName="averageScoreHistory" />

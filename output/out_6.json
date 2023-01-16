@@ -68,10 +68,6 @@
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
       } ]
     }, {
       "id" : 2,
@@ -123,10 +119,6 @@
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
       } ]
     }, {
       "id" : 2,
@@ -178,10 +170,6 @@
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
       } ]
     } ]
   }, {

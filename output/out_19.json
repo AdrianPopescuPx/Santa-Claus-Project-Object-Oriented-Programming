@@ -680,10 +680,6 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 66.09375,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -699,10 +695,6 @@
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 13.21875,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -926,13 +918,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 123.44262295081967,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
+      }, {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 13,
@@ -945,10 +937,6 @@
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 24.688524590163933,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -1172,13 +1160,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 92.96296296296296,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
+      }, {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 13,
@@ -1191,10 +1179,6 @@
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 18.59259259259259,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -1209,11 +1193,7 @@
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 65.07407407407408,
-      "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      } ]
+      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -1433,10 +1413,6 @@
       "niceScoreHistory" : [ 2.0 ],
       "assignedBudget" : 78.08163265306122,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -2527,10 +2503,6 @@
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 42.0,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -2546,10 +2518,6 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 60.0,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -2819,10 +2787,6 @@
       "niceScoreHistory" : [ 7.0 ],
       "assignedBudget" : 31.32051282051282,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
@@ -2838,10 +2802,6 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 44.743589743589745,
       "receivedGifts" : [ {
-        "productName" : "Shoes",
-        "price" : 70.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -2868,10 +2828,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
       } ]
     } ]
   } ]

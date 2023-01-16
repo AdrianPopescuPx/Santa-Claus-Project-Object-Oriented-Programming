@@ -1091,10 +1091,6 @@
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     } ]
   }, {
@@ -1299,10 +1295,6 @@
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 17,
@@ -1333,10 +1325,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
@@ -1499,10 +1487,6 @@
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 18,
@@ -1519,13 +1503,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     } ]
   }, {
@@ -1684,10 +1668,6 @@
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 18,
@@ -1704,13 +1684,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     } ]
   }, {
@@ -1854,10 +1834,6 @@
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 18,
@@ -1874,13 +1850,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 19,

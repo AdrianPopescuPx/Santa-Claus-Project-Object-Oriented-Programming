@@ -2,7 +2,7 @@ package common;
 
 public final class Constants {
     public static final String OUTPUT_PATH = "output/out_";
-    public static final String RESULT_PATH = "result";
+    public static final String RESULT_PATH = "output/";
     public static final String OUT_PATH = "output/out_";
     public static final String REF_PATH = "ref/ref_test";
     public static final String TESTS_PATH = "tests/";

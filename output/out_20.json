@@ -164,10 +164,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Iphone",
-        "price" : 700.0,
-        "category" : "Technology"
       } ]
     } ]
   }, {
@@ -223,10 +219,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Iphone",
-        "price" : 700.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 6,
@@ -297,10 +289,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Iphone",
-        "price" : 700.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 6,
@@ -371,10 +359,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Iphone",
-        "price" : 700.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 6,
@@ -472,10 +456,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Iphone",
-        "price" : 700.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 6,
@@ -533,10 +513,6 @@
         "productName" : "Dress",
         "price" : 45.0,
         "category" : "Clothes"
-      }, {
-        "productName" : "Iphone",
-        "price" : 700.0,
-        "category" : "Technology"
       } ]
     } ]
   } ]

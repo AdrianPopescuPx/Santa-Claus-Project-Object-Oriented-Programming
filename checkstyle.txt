@@ -43,6 +43,7 @@ Starting audit...
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\main\Main.java:76:61: Parameter fileWriter should be final. [FinalParameters]
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\main\Main.java:83:45: '18' is a magic number. [MagicNumber]
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\main\Main.java:127: Line is longer than 100 characters (found 103). [LineLength]
+[ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\main\Main.java:155:70: '&&' should be on a new line. [OperatorWrap]
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\MyDatabase\MyDatabase.java:1:9: Name 'MyDatabase' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\MyDatabase\MyDatabase.java:2:21: Using the '.*' form of import should be avoided - SantaDatabase.*. [AvoidStarImport]
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\MyDatabase\MyDatabase.java:3:8: Unused import - com.google.gson.Gson. [UnusedImports]
@@ -193,4 +194,4 @@ Starting audit...
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\Utils\Utils.java:9:22: '}' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\Santa-Claus-Project-Object-Oriented-Programming\.\src\Utils\Utils.java:11:5: Missing a Javadoc comment. [MissingJavadocMethod]
 Audit done.
-Checkstyle ends with 193 errors.
+Checkstyle ends with 194 errors.

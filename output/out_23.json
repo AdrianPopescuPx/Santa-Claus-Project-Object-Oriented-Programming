@@ -887,10 +887,6 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -906,10 +902,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 49.75342465753425,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1115,10 +1107,6 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1134,10 +1122,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 53.529411764705884,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1320,10 +1304,6 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1339,10 +1319,6 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 26.847457627118644,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
@@ -1525,13 +1501,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 13,
@@ -1544,13 +1520,13 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 237.5483870967742,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 14,
@@ -1566,10 +1542,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
@@ -1730,13 +1702,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 13,
@@ -1749,13 +1721,13 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 283.2307692307692,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 14,
@@ -1772,13 +1744,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     } ]
   }, {
@@ -1916,13 +1888,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 13,
@@ -1935,13 +1907,13 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 294.56,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 14,
@@ -1958,13 +1930,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     } ]
   }, {
@@ -2102,13 +2074,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 13,
@@ -2121,13 +2093,13 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 245.46666666666667,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 14,
@@ -2144,13 +2116,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 15,
@@ -2311,13 +2283,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 13,
@@ -2330,13 +2302,13 @@
       "niceScoreHistory" : [ 8.0 ],
       "assignedBudget" : 263.0,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 14,
@@ -2353,13 +2325,13 @@
         "price" : 5.0,
         "category" : "Toys"
       }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 15,

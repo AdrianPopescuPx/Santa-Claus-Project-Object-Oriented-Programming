@@ -554,10 +554,6 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 14.767441860465116,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
@@ -809,13 +805,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 210.56818181818184,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 14,
@@ -1083,13 +1079,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 220.5952380952381,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 14,
@@ -1380,13 +1376,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 195.0526315789474,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 14,
@@ -1661,13 +1657,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 220.5952380952381,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 14,
@@ -1942,13 +1938,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 201.41304347826087,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 14,
@@ -2257,13 +2253,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 228.76543209876544,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 14,
@@ -2538,13 +2534,13 @@
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 203.6263736263736,
       "receivedGifts" : [ {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 14,
@@ -2640,10 +2636,6 @@
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 21,
@@ -2663,10 +2655,6 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
       } ]
     } ]
   } ]

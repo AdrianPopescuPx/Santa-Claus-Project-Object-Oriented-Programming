@@ -130,11 +130,13 @@ public final class Main {
             }
             Double currentBudget = database.getAnnualChanges().get(i).getNewSantaBudget();
             for (Children currentChild : database.getChildrenData()) {
+                Double assignedBudget = currentChild.getAssignedBudget();
                 for (String preference : currentChild.getGiftsPreferences()) {
                     boolean hasGift = false;
                     for (SantaGiftsList giftsList : currentChild.getReceivedGifts()) {
                         if (giftsList.getCategory().equals(preference)) {
                             hasGift = true;
+                            assignedBudget -= giftsList.getPrice();
                             break;
                         }
                     }
@@ -150,9 +152,12 @@ public final class Main {
                             }
                         }
                         if (finalGift != null) {
-                            if (currentBudget - finalGift.getPrice() > 0 && finalGift != null) {
+                            if (currentBudget > finalGift.getPrice() &&
+                                    assignedBudget > finalGift.getPrice()) {
                                 currentChild.addGifts(finalGift);
                                 currentBudget -= finalGift.getPrice();
+                                assignedBudget -= finalGift.getPrice();
+                                //database.getGiftsData().remove(finalGift);
                             }
                         }
                     }
