@@ -47,8 +47,9 @@ public final class Main {
         File outputDirectory = new File(Constants.RESULT_PATH);
         Checker.deleteFiles(outputDirectory.listFiles());
         for (File file : Objects.requireNonNull(directory.listFiles())) {
-
-            String filepath = Constants.OUT_PATH + file.getName();
+            String myString = file.getName();
+            String numbersOnly = myString.replaceAll("[^0-9]", "");
+            String filepath = Constants.OUT_PATH + numbersOnly + ".json";
             File out = new File(filepath);
             boolean isCreated = out.createNewFile();
             if (isCreated) {
@@ -65,19 +66,17 @@ public final class Main {
         Writer fileWriter = new Writer(filePath2);
         MyDatabase database = MyDatabase.getInstance();
         database.setInput(input);
-
         Operations operations = new Operations(database.getChildrenData());
         operations.doAverageOperation();
         database.roundZero(fileWriter);
-
+        doAnnualChanges(database, fileWriter);
         fileWriter.closeJSON();
     }
 
-    public void doAnnualChanges(MyDatabase database, Writer fileWriter) {
+    public static void doAnnualChanges(MyDatabase database, Writer fileWriter) throws IOException {
         for (int i = 0; i < database.getNumberOfYears(); ++i) {
-            Operations operations = new Operations(database.getChildrenData());
-            operations.doAnnualChanges();
-            // adding new child if is under 19 years old
+            // I will not update santaBudget, I will work directly with newSantaBudget
+            // adding new child if is under 19 years old ( newChildren )
             if (!database.getAnnualChanges().get(i).getNewChildren().isEmpty()) {
                 for (Children newChild : database.getAnnualChanges().get(i)
                         .getNewChildren()) {
@@ -87,17 +86,21 @@ public final class Main {
                     database.getChildrenData().add(newChild);
                 }
             }
-            // updating children data
+            Operations operations = new Operations(database.getChildrenData());
+            operations.doAnnualChanges();
+
+            // updating children data ( children updates )
             if (!database.getAnnualChanges().get(i).getChildrenUpdates().isEmpty()) {
                 for (ChildrenUpdate childUpdate : database.getAnnualChanges().get(i)
                         .getChildrenUpdates()) {
-                    Children currentChild = database.getChildrenData().get(childUpdate.getId());
+                    Children currentChild = null;
                     if (database.getChildrenData().contains(childUpdate.getId())) {
+                        currentChild = database.getChildrenData().get(childUpdate.getId());
                         if (childUpdate.getNiceScore() != null) {
                             currentChild.addScoreToList(childUpdate.getNiceScore());
                         }
                     }
-                    if (!childUpdate.getNewPreferences().isEmpty()) {
+                    if (!childUpdate.getNewPreferences().isEmpty() && currentChild != null) {
                         ArrayList<String> newElements = childUpdate.getNewPreferences();
                         for (String element : newElements) {
                             if (currentChild.getGiftsPreferences().contains(element)) {
@@ -108,6 +111,54 @@ public final class Main {
                     }
                 }
             }
+            // adding newGifts
+            if (!database.getAnnualChanges().get(i).getNewGifts().isEmpty()) {
+                for (SantaGiftsList newGift : database.
+                        getAnnualChanges().get(i).getNewGifts()) {
+                    if (!database.getGiftsData().contains(newGift)) {
+                        database.getGiftsData().add(newGift);
+                    }
+                }
+            }
+            Double allAverageSum = 0.0;
+            for (Children currentChild : database.getChildrenData()) {
+                allAverageSum += currentChild.getAverageScore();
+            }
+            Double budgetUnit = database.getAnnualChanges().get(i).getNewSantaBudget() / allAverageSum;
+            for (Children currentChild : database.getChildrenData()) {
+                currentChild.setAssignedBudget(currentChild.getAverageScore() * budgetUnit);
+            }
+            Double currentBudget = database.getAnnualChanges().get(i).getNewSantaBudget();
+            for (Children currentChild : database.getChildrenData()) {
+                for (String preference : currentChild.getGiftsPreferences()) {
+                    boolean hasGift = false;
+                    for (SantaGiftsList giftsList : currentChild.getReceivedGifts()) {
+                        if (giftsList.getCategory().equals(preference)) {
+                            hasGift = true;
+                            break;
+                        }
+                    }
+                    if (!hasGift) {
+                        SantaGiftsList finalGift = null;
+                        for (SantaGiftsList currentGift : database.getGiftsData()) {
+                            if (currentGift.getCategory().equals(preference) && finalGift == null) {
+                                finalGift = currentGift;
+                            }   else if (currentGift.getCategory().equals(preference)) {
+                                if (currentGift.getPrice() < finalGift.getPrice()) {
+                                    finalGift = currentGift;
+                                }
+                            }
+                        }
+                        if (finalGift != null) {
+                            if (currentBudget - finalGift.getPrice() > 0 && finalGift != null) {
+                                currentChild.addGifts(finalGift);
+                                currentBudget -= finalGift.getPrice();
+                            }
+                        }
+                    }
+                }
+            }
+            fileWriter.writeFile(database.getChildrenData());
         }
     }
 }

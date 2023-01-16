@@ -12,8 +12,8 @@ import java.util.List;
 
 public class Writer {
 
-    private JSONArray jsonArray = new JSONArray();
-    private JSONObject jsonObject = new JSONObject();
+    private final JSONArray jsonArray = new JSONArray();
+    private final JSONObject jsonObject = new JSONObject();
     private FileWriter file;
     public Writer(final String path) throws IOException {
         this.file = new FileWriter(path);
@@ -26,7 +26,10 @@ public class Writer {
     public void writeFile(List<Children> childrenCategoryList) throws IOException {
         JSONObject object = new JSONObject();
         object.put("children", childrenCategoryList);
-        jsonArray.add(object);
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonSource = mapper.writeValueAsString(object);
+        JSONObject jsonObjectClone = mapper.readValue(jsonSource, JSONObject.class);
+        jsonArray.add(jsonObjectClone);
     }
 
     public void closeJSON() throws IOException {

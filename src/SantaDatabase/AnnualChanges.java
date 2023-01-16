@@ -5,7 +5,7 @@ import java.util.List;
 
 public final class AnnualChanges {
 
-    private final Double newSantaBudget;
+    private Double newSantaBudget;
     private List<SantaGiftsList> newGifts;
     private List<Children> newChildren;
     private List<ChildrenUpdate> childrenUpdates;
