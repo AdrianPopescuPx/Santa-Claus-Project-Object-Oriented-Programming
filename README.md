@@ -1,1 +1,1 @@
-# Santa-Claus-Project-Object-Oriented-Programming
+<Copyright Popescu Adrian, adrianpopescupx@gmail.com>
