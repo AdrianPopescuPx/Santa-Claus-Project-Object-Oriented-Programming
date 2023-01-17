@@ -4,30 +4,26 @@
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/MyDatabase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/MyDatabase/Operations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Baby.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Baby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/BabyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/BabyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/ChildrenCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/ChildrenCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/ChildrenFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/ChildrenFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Kid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Kid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/KidFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/KidFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Teen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/Teen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/TeenFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/childrenCategory/TeenFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect1/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_11.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_17.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_17.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDatabase/MyDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyDatabase/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyDatabase/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SantaDatabase/AnnualChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/Baby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/Baby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/BabyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/BabyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/ChildrenCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/ChildrenCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/ChildrenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/ChildrenFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/Kid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/KidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/KidFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/Teen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/childrenCategory/TeenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/childrencategory/TeenFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,15 +104,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="MyDatabase.MyDatabase" memberName="childrenData" />

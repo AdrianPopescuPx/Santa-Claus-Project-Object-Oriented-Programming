@@ -1,6 +1,6 @@
-package childrenCategory;
+package childrencategory;
 
-public class KidFactory extends ChildrenFactory{
+public class KidFactory extends ChildrenFactory {
 
     @Override
     public ChildrenCategory createChildrenCategory() {

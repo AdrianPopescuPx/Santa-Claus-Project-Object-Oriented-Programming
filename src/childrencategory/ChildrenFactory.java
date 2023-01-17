@@ -1,4 +1,4 @@
-package childrenCategory;
+package childrencategory;
 
 import SantaDatabase.Children;
 

@@ -1,9 +1,7 @@
 package MyDatabase;
 
-import SantaDatabase.AnnualChanges;
 import SantaDatabase.Children;
-import SantaDatabase.Input;
-import childrenCategory.*;
+import childrencategory.*;
 
 import java.util.List;
 

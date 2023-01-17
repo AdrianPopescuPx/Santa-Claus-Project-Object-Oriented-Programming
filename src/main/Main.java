@@ -4,14 +4,7 @@ import MyDatabase.MyDatabase;
 import MyDatabase.Operations;
 import SantaDatabase.*;
 import checker.Checker;
-import childrenCategory.*;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
 import common.Constants;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 
 import java.io.File;
 import java.io.IOException;

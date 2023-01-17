@@ -1,11 +1,11 @@
-package childrenCategory;
+package childrencategory;
 
 import SantaDatabase.Children;
 
 public class Teen implements ChildrenCategory {
 
     @Override
-    public void calculateAverageScore(Children children) {
+    public void calculateAverageScore(final Children children) {
         Double averageScore = 0.0;
         double sum = 0.0;
         for (int i = 0; i < children.getNiceScoreHistory().size(); ++i) {
