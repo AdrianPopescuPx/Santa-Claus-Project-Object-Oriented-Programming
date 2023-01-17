@@ -13,9 +13,8 @@ public class Operations {
     public Operations(List<Children> input) {
         this.childrenData = input;
     }
-    public void doAnnualChanges() {
+    public void doSecondChange() {
         for (int i = 0; i < childrenData.size(); ++i) {
-            childrenData.get(i).setAge();
             if (childrenData.get(i).getAge() < 5) {
                 ChildrenFactory childrenFactory = new BabyFactory();
                 ChildrenCategory babyCat = childrenFactory.calculateKidsAverage(childrenData.get(i));
@@ -31,6 +30,11 @@ public class Operations {
                 childrenData.remove(childrenData.get(i));
                 i--;
             }
+        }
+    }
+    public void doYearIncrease() {
+        for (int i = 0; i < childrenData.size(); ++i) {
+            childrenData.get(i).setAge();
         }
     }
     public void doAverageOperation() {

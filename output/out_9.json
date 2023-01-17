@@ -18,10 +18,6 @@
         "productName" : "Bag of Candy",
         "price" : 20.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 1,

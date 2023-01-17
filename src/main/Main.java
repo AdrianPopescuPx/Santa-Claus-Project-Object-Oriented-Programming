@@ -18,10 +18,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 
 /**
@@ -76,32 +73,39 @@ public final class Main {
     public static void doAnnualChanges(MyDatabase database, Writer fileWriter) throws IOException {
         for (int i = 0; i < database.getNumberOfYears(); ++i) {
             // I will not update santaBudget, I will work directly with newSantaBudget
+
+            Operations operations = new Operations(database.getChildrenData());
+            operations.doYearIncrease();
             // adding new child if is under 19 years old ( newChildren )
             if (!database.getAnnualChanges().get(i).getNewChildren().isEmpty()) {
-                for (Children newChild : database.getAnnualChanges().get(i)
-                        .getNewChildren()) {
-                    if (newChild.getAge() > 18) {
-                        continue;
-                    }
-                    database.getChildrenData().add(newChild);
+                for (Children children : database.getAnnualChanges().get(i).getNewChildren()) {
+                    database.getChildrenData().add(children);
                 }
             }
-            Operations operations = new Operations(database.getChildrenData());
-            operations.doAnnualChanges();
-
-            // updating children data ( children updates )
+            // adding new nice score
             if (!database.getAnnualChanges().get(i).getChildrenUpdates().isEmpty()) {
                 for (ChildrenUpdate childUpdate : database.getAnnualChanges().get(i)
                         .getChildrenUpdates()) {
                     Children currentChild = null;
-                    if (database.getChildrenData().contains(childUpdate.getId())) {
-                        currentChild = database.getChildrenData().get(childUpdate.getId());
-                        if (childUpdate.getNiceScore() != null) {
-                            currentChild.addScoreToList(childUpdate.getNiceScore());
+                    for (Children children : database.getChildrenData()) {
+                        if (children.getId() == childUpdate.getId()) {
+                            currentChild = children;
+                            break;
                         }
                     }
+                        if (childUpdate.getNiceScore() != null && currentChild != null) {
+                            currentChild.addScoreToList(childUpdate.getNiceScore());
+                        }
                     if (!childUpdate.getNewPreferences().isEmpty() && currentChild != null) {
                         ArrayList<String> newElements = childUpdate.getNewPreferences();
+                        for (int j = 0; j < newElements.size() - 1; ++j) {
+                            for (int q = j + 1; q < newElements.size(); ++q) {
+                                if (newElements.get(j).equals(newElements.get(q))) {
+                                    newElements.remove(q);
+                                    q--;
+                                }
+                            }
+                        }
                         for (String element : newElements) {
                             if (currentChild.getGiftsPreferences().contains(element)) {
                                 currentChild.getGiftsPreferences().remove(element);
@@ -111,6 +115,7 @@ public final class Main {
                     }
                 }
             }
+
             // adding newGifts
             if (!database.getAnnualChanges().get(i).getNewGifts().isEmpty()) {
                 for (SantaGiftsList newGift : database.
@@ -120,27 +125,32 @@ public final class Main {
                     }
                 }
             }
+
+            Double currentBudget = database.getAnnualChanges().get(i).getNewSantaBudget();
+            operations.doAverageOperation();
+
             Double allAverageSum = 0.0;
             for (Children currentChild : database.getChildrenData()) {
                 allAverageSum += currentChild.getAverageScore();
             }
-            Double budgetUnit = database.getAnnualChanges().get(i).getNewSantaBudget() / allAverageSum;
+            Double budgetUnit = currentBudget / allAverageSum;
             for (Children currentChild : database.getChildrenData()) {
                 currentChild.setAssignedBudget(currentChild.getAverageScore() * budgetUnit);
             }
-            Double currentBudget = database.getAnnualChanges().get(i).getNewSantaBudget();
+
             for (Children currentChild : database.getChildrenData()) {
                 Double assignedBudget = currentChild.getAssignedBudget();
+                currentChild.getReceivedGifts().clear();
                 for (String preference : currentChild.getGiftsPreferences()) {
-                    boolean hasGift = false;
-                    for (SantaGiftsList giftsList : currentChild.getReceivedGifts()) {
-                        if (giftsList.getCategory().equals(preference)) {
-                            hasGift = true;
-                            assignedBudget -= giftsList.getPrice();
-                            break;
-                        }
-                    }
-                    if (!hasGift) {
+//                    boolean toGive = false;
+//                    for (SantaGiftsList giftsList : currentChild.getReceivedGifts()) {
+//                        if (giftsList.getCategory().equals(preference)) {
+//                            toGive = true;
+//                            assignedBudget -= giftsList.getPrice();
+//                            break;
+//                        }
+//                    }
+//                    if (!hasGift) {
                         SantaGiftsList finalGift = null;
                         for (SantaGiftsList currentGift : database.getGiftsData()) {
                             if (currentGift.getCategory().equals(preference) && finalGift == null) {
@@ -160,7 +170,7 @@ public final class Main {
                                 //database.getGiftsData().remove(finalGift);
                             }
                         }
-                    }
+//                    }
                 }
             }
             fileWriter.writeFile(database.getChildrenData());

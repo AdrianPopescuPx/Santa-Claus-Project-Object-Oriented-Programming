@@ -65,18 +65,22 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 2,
-      "giftsPreferences" : [ "Toys", "Books" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 93.15789473684211,
       "receivedGifts" : [ {
-        "productName" : "Doll",
+        "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Toys"
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -105,18 +109,22 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 3,
-      "giftsPreferences" : [ "Toys", "Books" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 388.42105263157896,
       "receivedGifts" : [ {
-        "productName" : "Doll",
+        "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Toys"
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -145,18 +153,22 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 4,
-      "giftsPreferences" : [ "Toys", "Books" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 207.36842105263156,
       "receivedGifts" : [ {
-        "productName" : "Doll",
+        "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Toys"
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -185,25 +197,29 @@
       "firstName" : "Miruna",
       "city" : "Cluj-Napoca",
       "age" : 5,
-      "giftsPreferences" : [ "Toys", "Books" ],
+      "giftsPreferences" : [ "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
       "assignedBudget" : 295.2,
       "receivedGifts" : [ {
-        "productName" : "Doll",
+        "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Toys"
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
         "category" : "Books"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
       "lastName" : "Stoica",
       "firstName" : "Tudor",
       "city" : "Brasov",
-      "age" : 8,
+      "age" : 7,
       "giftsPreferences" : [ "Sweets" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],

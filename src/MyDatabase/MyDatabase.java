@@ -62,6 +62,7 @@ public class MyDatabase {
         }
 
         for (Children currentChild : getChildrenData()) {
+            Double childBudget = currentChild.getAssignedBudget();
             for (String preference : currentChild.getGiftsPreferences()) {
                 SantaGiftsList finalGift = null;
                 for (SantaGiftsList currentGift : giftsData) {
@@ -74,8 +75,10 @@ public class MyDatabase {
                     }
                 }
                 if (finalGift != null) {
-                    if (santaBudget - finalGift.getPrice() > 0) {
+                    if (santaBudget - finalGift.getPrice() > 0 && childBudget
+                    > finalGift.getPrice()) {
                         currentChild.addGifts(finalGift);
+                        childBudget -= finalGift.getPrice();
                         santaBudget -= finalGift.getPrice();
                     }
                 }

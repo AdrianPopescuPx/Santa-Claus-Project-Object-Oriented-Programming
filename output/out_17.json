@@ -114,7 +114,7 @@
       "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 317.5238095238095,
+      "assignedBudget" : 283.74468085106383,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -137,7 +137,7 @@
       "giftsPreferences" : [ "Board Games", "Technology", "Sweets" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 476.2857142857143,
+      "assignedBudget" : 425.6170212765958,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -160,7 +160,7 @@
       "giftsPreferences" : [ "Technology", "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 396.9047619047619,
+      "assignedBudget" : 354.6808510638298,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -181,9 +181,9 @@
       "city" : "Craiova",
       "age" : 7,
       "giftsPreferences" : [ "Sweets" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 158.76190476190476,
+      "averageScore" : 4.5,
+      "niceScoreHistory" : [ 2.0, 7.0 ],
+      "assignedBudget" : 319.21276595744683,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
@@ -195,11 +195,19 @@
       "firstName" : "Andreea",
       "city" : "Brasov",
       "age" : 9,
-      "giftsPreferences" : [ "Technology", "Toys" ],
+      "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Clothes", "Toys" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 317.5238095238095,
+      "assignedBudget" : 283.74468085106383,
       "receivedGifts" : [ {
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
+      }, {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
@@ -219,15 +227,11 @@
       "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 208.375,
+      "assignedBudget" : 193.2753623188406,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
@@ -242,15 +246,11 @@
       "giftsPreferences" : [ "Technology", "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 260.46875,
+      "assignedBudget" : 241.59420289855075,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
@@ -263,9 +263,9 @@
       "city" : "Craiova",
       "age" : 8,
       "giftsPreferences" : [ "Sweets" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 104.1875,
+      "averageScore" : 4.5,
+      "niceScoreHistory" : [ 2.0, 7.0 ],
+      "assignedBudget" : 217.43478260869566,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
@@ -277,11 +277,19 @@
       "firstName" : "Andreea",
       "city" : "Brasov",
       "age" : 10,
-      "giftsPreferences" : [ "Technology", "Toys" ],
+      "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Clothes", "Toys" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 208.375,
+      "assignedBudget" : 193.2753623188406,
       "receivedGifts" : [ {
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
+      }, {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
@@ -295,11 +303,11 @@
       "lastName" : "Cantemir",
       "firstName" : "Miruna",
       "city" : "Timisoara",
-      "age" : 8,
+      "age" : 7,
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 468.84375,
+      "assignedBudget" : 434.8695652173913,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -310,11 +318,11 @@
       "lastName" : "Popa",
       "firstName" : "Matei",
       "city" : "Craiova",
-      "age" : 11,
+      "age" : 10,
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 416.75,
+      "assignedBudget" : 386.5507246376812,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -339,20 +347,8 @@
       "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 15.875,
-      "receivedGifts" : [ {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      } ]
+      "assignedBudget" : 14.72463768115942,
+      "receivedGifts" : [ ]
     }, {
       "id" : 2,
       "lastName" : "Popa",
@@ -362,20 +358,8 @@
       "giftsPreferences" : [ "Technology", "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 19.84375,
-      "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      } ]
+      "assignedBudget" : 18.405797101449274,
+      "receivedGifts" : [ ]
     }, {
       "id" : 3,
       "lastName" : "Pop",
@@ -383,9 +367,9 @@
       "city" : "Craiova",
       "age" : 9,
       "giftsPreferences" : [ "Sweets" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 7.9375,
+      "averageScore" : 4.5,
+      "niceScoreHistory" : [ 2.0, 7.0 ],
+      "assignedBudget" : 16.565217391304348,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
@@ -397,15 +381,11 @@
       "firstName" : "Andreea",
       "city" : "Brasov",
       "age" : 11,
-      "giftsPreferences" : [ "Technology", "Toys" ],
+      "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Clothes", "Toys" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 15.875,
+      "assignedBudget" : 14.72463768115942,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
@@ -415,38 +395,26 @@
       "lastName" : "Cantemir",
       "firstName" : "Miruna",
       "city" : "Timisoara",
-      "age" : 9,
+      "age" : 8,
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 35.71875,
-      "receivedGifts" : [ {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : 33.130434782608695,
+      "receivedGifts" : [ ]
     }, {
       "id" : 6,
       "lastName" : "Popa",
       "firstName" : "Matei",
       "city" : "Craiova",
-      "age" : 12,
+      "age" : 11,
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 31.75,
+      "assignedBudget" : 29.44927536231884,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
       } ]
     } ]
   }, {
@@ -459,15 +427,11 @@
       "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 93.71428571428571,
+      "assignedBudget" : 88.78195488721805,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
@@ -482,19 +446,11 @@
       "giftsPreferences" : [ "Technology", "Clothes", "Books" ],
       "averageScore" : 5.0,
       "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 117.14285714285714,
+      "assignedBudget" : 110.97744360902256,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
       } ]
     }, {
       "id" : 3,
@@ -502,14 +458,18 @@
       "firstName" : "Mihai",
       "city" : "Craiova",
       "age" : 10,
-      "giftsPreferences" : [ "Sweets" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 46.857142857142854,
+      "giftsPreferences" : [ "Books", "Technology", "Sweets" ],
+      "averageScore" : 6.333333333333333,
+      "niceScoreHistory" : [ 2.0, 7.0, 10.0 ],
+      "assignedBudget" : 140.57142857142858,
       "receivedGifts" : [ {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
       } ]
     }, {
       "id" : 4,
@@ -517,14 +477,18 @@
       "firstName" : "Andreea",
       "city" : "Brasov",
       "age" : 12,
-      "giftsPreferences" : [ "Technology", "Toys" ],
+      "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Clothes", "Toys" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 93.71428571428571,
+      "assignedBudget" : 88.78195488721805,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
@@ -535,16 +499,127 @@
       "lastName" : "Cantemir",
       "firstName" : "Miruna",
       "city" : "Timisoara",
+      "age" : 9,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 9.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 199.7593984962406,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 6,
+      "lastName" : "Popa",
+      "firstName" : "Matei",
+      "city" : "Craiova",
+      "age" : 12,
+      "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 8.0, 5.0 ],
+      "assignedBudget" : 133.17293233082708,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 1,
+      "giftsPreferences" : [ "Board Games", "Sweets" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 221.95488721804512,
+      "receivedGifts" : [ {
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Mihalache",
+      "firstName" : "Alexandra",
+      "city" : "Timisoara",
+      "age" : 11,
+      "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 53.8224852071006,
+      "receivedGifts" : [ {
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Oradea",
+      "age" : 17,
+      "giftsPreferences" : [ "Technology", "Clothes", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 67.27810650887575,
+      "receivedGifts" : [ {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Craiova",
+      "age" : 11,
+      "giftsPreferences" : [ "Books", "Technology", "Sweets" ],
+      "averageScore" : 6.333333333333333,
+      "niceScoreHistory" : [ 2.0, 7.0, 10.0 ],
+      "assignedBudget" : 85.21893491124261,
+      "receivedGifts" : [ {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 13,
+      "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Clothes", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 53.8224852071006,
+      "receivedGifts" : [ {
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Cantemir",
+      "firstName" : "Miruna",
+      "city" : "Timisoara",
       "age" : 10,
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 210.85714285714283,
-      "receivedGifts" : [ {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      } ]
+      "assignedBudget" : 121.10059171597635,
+      "receivedGifts" : [ ]
     }, {
       "id" : 6,
       "lastName" : "Popa",
@@ -552,14 +627,10 @@
       "city" : "Craiova",
       "age" : 13,
       "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
-      "averageScore" : 8.0,
-      "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 187.42857142857142,
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 8.0, 5.0 ],
+      "assignedBudget" : 80.73372781065089,
       "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
@@ -577,146 +648,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 234.28571428571428,
-      "receivedGifts" : [ {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
-      } ]
-    } ]
-  }, {
-    "children" : [ {
-      "id" : 0,
-      "lastName" : "Mihalache",
-      "firstName" : "Alexandra",
-      "city" : "Timisoara",
-      "age" : 11,
-      "giftsPreferences" : [ "Board Games", "Clothes", "Books" ],
-      "averageScore" : 4.0,
-      "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 56.148148148148145,
-      "receivedGifts" : [ {
-        "productName" : "Puzzle",
-        "price" : 50.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      } ]
-    }, {
-      "id" : 2,
-      "lastName" : "Popa",
-      "firstName" : "Tudor",
-      "city" : "Oradea",
-      "age" : 17,
-      "giftsPreferences" : [ "Technology", "Clothes", "Books" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 5.0 ],
-      "assignedBudget" : 70.18518518518518,
-      "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Mihai",
-      "city" : "Craiova",
-      "age" : 11,
-      "giftsPreferences" : [ "Sweets" ],
-      "averageScore" : 2.0,
-      "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 28.074074074074073,
-      "receivedGifts" : [ {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
-      } ]
-    }, {
-      "id" : 4,
-      "lastName" : "Popa",
-      "firstName" : "Andreea",
-      "city" : "Brasov",
-      "age" : 13,
-      "giftsPreferences" : [ "Technology", "Toys" ],
-      "averageScore" : 4.0,
-      "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 56.148148148148145,
-      "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
-      } ]
-    }, {
-      "id" : 5,
-      "lastName" : "Cantemir",
-      "firstName" : "Miruna",
-      "city" : "Timisoara",
-      "age" : 11,
-      "giftsPreferences" : [ "Clothes" ],
-      "averageScore" : 9.0,
-      "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 126.33333333333333,
-      "receivedGifts" : [ {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
-      } ]
-    }, {
-      "id" : 6,
-      "lastName" : "Popa",
-      "firstName" : "Matei",
-      "city" : "Craiova",
-      "age" : 14,
-      "giftsPreferences" : [ "Technology", "Sweets", "Books" ],
-      "averageScore" : 8.0,
-      "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 112.29629629629629,
-      "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
-      }, {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      } ]
-    }, {
-      "id" : 7,
-      "lastName" : "Mihalache",
-      "firstName" : "Andreea",
-      "city" : "Braila",
-      "age" : 3,
-      "giftsPreferences" : [ "Board Games", "Sweets" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 140.37037037037035,
+      "assignedBudget" : 134.5562130177515,
       "receivedGifts" : [ {
         "productName" : "Puzzle",
         "price" : 50.0,
@@ -731,11 +663,11 @@
       "lastName" : "Ionescu",
       "firstName" : "Mihai",
       "city" : "Timisoara",
-      "age" : 4,
+      "age" : 3,
       "giftsPreferences" : [ "Technology", "Sweets", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 140.37037037037035,
+      "assignedBudget" : 134.5562130177515,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -754,11 +686,11 @@
       "lastName" : "Stoica",
       "firstName" : "Miruna",
       "city" : "Brasov",
-      "age" : 12,
+      "age" : 11,
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 28.074074074074073,
+      "assignedBudget" : 26.9112426035503,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
